@@ -12,9 +12,9 @@ Examples
 ========
 [see more]http://docs.observium.org/api/#get-endpoints
 ```
-from NsoneObservium import NsoneObservium
+from NsoneObservium.NsoneObservium import NsoneObservium
 
-observium = NsoneObservium.NsoneObservium('https://observium01.example.com', 'myuser', 'mypassword', ssl_verify=False)
+observium = NsoneObservium('https://observium01.example.com', 'myuser', 'mypassword', ssl_verify=False)
 observium.get_devices({'hostname': "mpr.myrouter"})
 
 observium.get_devices()
