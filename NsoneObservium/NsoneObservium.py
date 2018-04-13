@@ -124,9 +124,6 @@ def _nsone_observium_make_method(endpoint, action, maps):
                     # We don't want things like ansible to fail because it searched for a device that doesn't exist.
                     # If we made it here, it likely means that we reached observium but that the query found nothing.
                     
-                    #if(response.status_code == 404):
-                    #    results = {'status': 'ok', 'count': 0}
-                    #else:
                     errors.append("Observium error response: %s" % response.text)
         except BaseException as e:
             errors.append(e)
