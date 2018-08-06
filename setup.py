@@ -42,6 +42,5 @@ setup(
 
     keywords='observium network automation',  # Optional
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),  # Required
-    install_requires=['requests'],  # Optional
-
+    install_requires=['requests', 'urllib3'],  # Optional
 )
