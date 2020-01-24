@@ -1,4 +1,5 @@
 # NS1 Observium API Python Library
+> This project is [inactive](https://github.com/ns1/community/blob/master/project_status/INACTIVE.md).
 
 A python library for interacting with the Observium API: http://docs.observium.org/api/
 
@@ -28,8 +29,7 @@ observium.get_alerts({'alert_id': "234"})
 
 Contributing
 ============
-
-Contributions, ideas and criticisms are all welcome.
+Pull Requests and issues are welcome. See the [NS1 Contribution Guidelines](https://github.com/ns1/community) for more information.
 
 # LICENSE
 
